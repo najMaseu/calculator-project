@@ -14,6 +14,7 @@ const createWindow = (): void => {
     const mainWindow = new BrowserWindow({
         height: 600,
         width: 300,
+        resizable: false,
     })
 
     mainWindow.loadURL(MAIN_WINDOW_WEBPACK_ENTRY)
