@@ -107,6 +107,8 @@ section {
 }
 body {
     line-height: 1;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 300;
 }
 ol,
 ul {
@@ -133,5 +135,5 @@ html {
 *,
 *:before,
 *:after {
-    box-sizing: inherit;
+    box-sizing: border-box;
 }

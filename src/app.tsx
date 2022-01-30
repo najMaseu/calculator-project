@@ -1,7 +1,6 @@
-import { css } from '@emotion/css'
 import * as React from 'react'
 import * as ReactDOM from 'react-dom'
+import { Calculator } from './structures/Calculator/Calculator'
 
-const App = () => <h2>Hello from React!</h2>
-
+const App = () => <Calculator />
 ReactDOM.render(<App />, document.body)
