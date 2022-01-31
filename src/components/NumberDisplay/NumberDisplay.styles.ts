@@ -14,7 +14,7 @@ export const display = css({
     fontSize: '1.5rem',
     gap: 5,
     div: {
-        transition: 'all .5s ease',
+        transition: 'all .2s ease',
     },
 })
 

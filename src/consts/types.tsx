@@ -28,6 +28,7 @@ export interface CalculatorState {
     firstNumber: string | null
     secondNumber: string | null
     operation: CalcOperations | null
+    toBeCleared: boolean
 }
 
 export type ValidChars = number | '.'
