@@ -10,9 +10,9 @@ import {
 } from './NumberDisplay.styles'
 
 interface NumberDisplayProps {
-    firstNumber: string
-    secondNumber: string
-    operation: CalcOperations
+    firstNumber?: string
+    secondNumber?: string
+    operation?: CalcOperations
 }
 
 export const NumberDisplay = ({

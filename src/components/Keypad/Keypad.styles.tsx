@@ -51,10 +51,6 @@ export const numberBtns = css({
     },
 })
 
-export const zeroBtn = css({
-    gridColumn: '1 / 3',
-})
-
 export const operationBtns = css({
     display: 'grid',
     gridTemplateColumns: '1fr',
