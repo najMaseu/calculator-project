@@ -52,7 +52,6 @@ const evaluate = ({
                 parseFloat(firstNumber),
                 parseFloat(secondNumber || '0')
             )}`
-
         default:
             return firstNumber
     }
@@ -116,13 +115,19 @@ export const calculatorReducer = (
                 ? {
                       ...state,
                       secondNumber: `${state.secondNumber || ''}${
-                          action.payload
+                          action.payload === '.' &&
+                          state.secondNumber.includes(action.payload)
+                              ? ''
+                              : action.payload
                       }`,
                   }
                 : {
                       ...state,
                       firstNumber: `${state.firstNumber || ''}${
-                          action.payload
+                          action.payload === '.' &&
+                          state.firstNumber.includes(action.payload)
+                              ? ''
+                              : action.payload
                       }`,
                   }
 

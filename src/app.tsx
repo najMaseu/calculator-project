@@ -3,4 +3,4 @@ import * as ReactDOM from 'react-dom'
 import { Calculator } from './structures/Calculator/Calculator'
 
 const App = () => <Calculator />
-ReactDOM.render(<App />, document.body)
+ReactDOM.render(<App />, document.getElementById('root'))
