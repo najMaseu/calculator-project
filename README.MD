@@ -1,5 +1,7 @@
 # Electron Calculator Project
 
+![output](https://user-images.githubusercontent.com/40881569/152620539-6c852ece-357a-464b-90fd-464a9c47bc7d.gif)
+
 It is a school project the goal of which was to build a working desktop calculator with all the basic operations, LCM and GCD.
 
 I provided all the important info below.
